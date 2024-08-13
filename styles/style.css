@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* universal style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav style  */
+.nav-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.gamer {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.left-nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+.nav-right {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+.nav-option {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.nav-options {
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  text-align: center;
+  background-color: rgba(11, 2, 35, 0.1);
+}
+.logo {
+  color: red;
+}
+/* banner section  */
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-banner {
+  margin-top: 40px;
+  width: 50%;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.resizing-banner {
+  margin-top: 30px;
+}
+.goat {
+  background: linear-gradient(180deg, rgb(249, 72, 178), rgb(135, 88, 241));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Work Sans;
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 111px;
+  letter-spacing: 0%;
+  /* text-align: center; */
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.banner-option {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(83, 76, 100);
+  padding: 5px;
+  margin-top: 5px;
+}
+.b-logo {
+  padding: 2px;
+  margin: 2px;
+}
+.banner-btn {
+  margin-top: 50px;
+}
+.banner-btn button {
+  margin-left: 10px;
+}
+.sign-btn {
+  border-radius: 3rem;
+  padding: 10px 20px 12px 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 66, 165) 13.134%,
+    rgb(255, 66, 165) 87.942%
+  );
+}
+.go-btn {
+  border-radius: 3rem;
+  padding: 10px 20px 12px 20px;
+  background: rgb(78, 197, 247);
+}
+.right-banner {
+  width: 50%;
+}
+.right-banner img {
+  width: 100%;
+}
+/* gamer section  */
+.gamer-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-gamer {
+  width: 50%;
+}
+.left-gamer img {
+  width: 100%;
+}
+.right-gamer {
+  width: 50%;
+  text-align: end;
+}
+.gamer-heading {
+  background: linear-gradient(180deg, rgb(249, 72, 178), rgb(135, 88, 241));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.gamer-details {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(83, 76, 100);
+  text-align: end;
+}
+.gamer-btn {
+  border-radius: 3rem;
+  padding: 10px 20px 12px 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 66, 165) 13.134%,
+    rgb(255, 66, 165) 87.942%
+  );
+  margin: 10px 5px;
+}
+.special-gamer {
+  text-align: end;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 45px;
+}
