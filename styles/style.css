@@ -325,6 +325,27 @@
   padding: 10px;
   border-radius: 10px;
   color: rgb(255, 66, 165);
+  border: none;
+}
+/* logo & game section  */
+.logo-game {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.upper-part {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.logo-setting {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+.upper-part p {
+  padding: 2px;
+  margin-left: 5px;
 }
 /* footer section  */
 .footer-container {
