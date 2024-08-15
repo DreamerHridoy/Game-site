@@ -102,6 +102,7 @@
 .sign-btn {
   border-radius: 3rem;
   padding: 10px 20px 12px 20px;
+
   background: linear-gradient(
     90deg,
     rgb(255, 66, 165) 13.134%,
@@ -161,6 +162,7 @@
     rgb(255, 66, 165) 87.942%
   );
   margin: 10px 5px;
+  border: none;
 }
 .special-gamer {
   text-align: end;
@@ -397,4 +399,53 @@
   color: rgba(255, 255, 255, 0.6);
   display: flex;
   justify-content: center;
+}
+
+/* responsive design  */
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-right {
+    flex-direction: column;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .left-banner {
+    width: 100%;
+
+    text-align: center;
+  }
+  .gamer-section {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .right-gamer {
+    text-align: center;
+  }
+  .gamer-details {
+    width: 100%;
+    text-align: center;
+  }
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-container img {
+    width: 100%;
+  }
+
+  .play-instant {
+    flex-direction: column;
+  }
+  .anytime {
+    flex-direction: column;
+  }
+  .career {
+    flex-direction: column;
+  }
 }
