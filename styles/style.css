@@ -315,3 +315,37 @@
   border-radius: 10px;
   color: rgb(255, 66, 165);
 }
+/* footer section  */
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgb(11, 2, 35);
+}
+.footer-logo {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  color: white;
+  justify-content: center;
+  padding-top: 20px;
+}
+.gamer-footer {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.paragraph-footer {
+  color: white;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.icon-footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
