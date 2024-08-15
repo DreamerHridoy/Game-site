@@ -199,6 +199,17 @@
   font-size: 1.4rem;
   font-weight: 500;
 }
+.card-play {
+  position: relative;
+}
+.watch-now-btn {
+  color: white;
+  font-size: 2rem;
+
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
 /* instant play section  */
 .play-instant {
   max-width: 1340px;
