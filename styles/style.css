@@ -447,5 +447,31 @@
   }
   .career {
     flex-direction: column;
+    align-items: center;
+  }
+  .left-career {
+    width: 50%;
+  }
+  .right-career {
+    width: 100%;
+  }
+
+  .right-anytime {
+    margin-top: 80px;
+  }
+  .logo-setting {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container {
+    text-align: center;
+  }
+
+  .paragraph-footer,
+  .icon-footer,
+  .terms-footer,
+  .footer-end {
+    flex-direction: column;
+    gap: 10px;
   }
 }
